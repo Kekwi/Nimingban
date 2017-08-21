@@ -1,4 +1,4 @@
-package com.hippo.nimingban;
+package com.hippo.tnmb
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

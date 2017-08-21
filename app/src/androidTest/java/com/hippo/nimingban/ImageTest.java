@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.hippo.nimingban;
+package com.hippo.tnmb
 
 import android.util.Log;
 
