@@ -44,7 +44,7 @@ import de.greenrobot.dao.query.LazyList;
 
 public final class DB {
 
-    private static String[] AC_FORUM_ID_ARRAY = {};
+    private static String[] AC_FORUM_ID_ARRAY = {"-1", "1", "2","3","4","6","7","11","13","14","15","17","18","19","20","21","22","23","24"};
 
     private static String[] AC_FORUM_MSG_ARRAY = {
             // 综合版1
@@ -424,7 +424,10 @@ public final class DB {
         dao.deleteAll();
 
         int size = 63;
-        String[] names = {};
+        String[] names = { "时间线", "综合", "技术", "二次创作", "动画漫画",
+                "游戏", "欢乐恶搞", "小说", "数码音乐", "射影",
+                "都市怪谈", "支援1", "基佬", "姐妹2", "日记", "美食(汪版)", "喵版", "社畜",
+                "车万养老院"};
 
         AssertUtils.assertEquals("AC_FORUM_ID_ARRAY.size must be size", size, AC_FORUM_ID_ARRAY.length);
         AssertUtils.assertEquals("names.size must be size", size, names.length);

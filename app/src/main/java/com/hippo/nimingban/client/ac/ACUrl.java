@@ -19,7 +19,7 @@ package com.hippo.nimingban.client.ac;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
-public class ACUrl {
+public final class ACUrl {
 
     public static final String APP_ID = "nimingban";
 
