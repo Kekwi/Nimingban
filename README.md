@@ -2,9 +2,9 @@
 
 ![Icon](art/launcher_icon-web.png)
 
-这是一个匿名版客户端，现在你可以用它上 [A 岛](http://h.nimingban.com/Forum)
+这是一个匿名版客户端，现在你可以用它上 [A 岛](http://tnmb.org/Forum)
 
-An imageboard or textboard client. [AC Nimingban](http://h.nimingban.com/Forum) is supported now.
+An imageboard or textboard client. [AC Nimingban](http://tnmb.org/Forum) is supported now.
 
 
 # Screenshot

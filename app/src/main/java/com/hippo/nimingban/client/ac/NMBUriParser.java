@@ -29,7 +29,7 @@ import java.util.regex.Pattern;
 public final class NMBUriParser {
 
     private static final String[] AC_HOSTS = {
-            "h.nimingban.com",
+            "tnmb.org",
             "h.acfun.tv",
             "hacfun.tv"
     };

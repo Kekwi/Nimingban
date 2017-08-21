@@ -26,7 +26,7 @@ import okhttp3.Dns;
 
 public class NMBDns implements Dns {
 
-    private static final String DOMAIN_AC = "h.nimingban.com";
+    private static final String DOMAIN_AC = "tnmb.org";
     private static final byte[] IP_AC = {(byte)60, (byte) 190, (byte) 217, (byte) 150};
 
     private static final List<InetAddress> DNS_AC;

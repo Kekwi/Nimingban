@@ -23,7 +23,7 @@ public class ACUrl {
 
     public static final String APP_ID = "nimingban";
 
-    public static final String DOMAIN = "h.nimingban.com";
+    public static final String DOMAIN = "tnmb.org";
 
     public static final String HOST = "https://" + DOMAIN;
 
@@ -45,8 +45,8 @@ public class ACUrl {
 
     public static final String API_GET_COOKIE = HOST + "/Api/getCookie?appid=" + APP_ID;
 
-    //public static final String API_GET_CDN_PATH = HOST + "/Api/getCdnPath?appid=" + APP_ID;
-    public static final String API_GET_CDN_PATH = "http://nimingban.herokuapp.com/get_image_cdn_path";
+    public static final String API_GET_CDN_PATH = HOST + "/Api/getCdnPath?appid=" + APP_ID;
+//    public static final String API_GET_CDN_PATH = "http://nimingban.herokuapp.com/get_image_cdn_path";
 
     public static final String API_GET_FORUM_LIST = HOST + "/Api/getForumList?appid=" + APP_ID;
 
@@ -100,7 +100,7 @@ public class ACUrl {
     }
 
     public static String getBingSearchUrl(String keyword, int page) throws UnsupportedEncodingException {
-        return "http://www.bing.com/search?q=" + URLEncoder.encode(keyword, "UTF-8") + "+site%3ah.nimingban.com&first=" + (page * 10 + 1);
+        return "http://www.bing.com/search?q=" + URLEncoder.encode(keyword, "UTF-8") + "+site%3atnmb.org&first=" + (page * 10 + 1);
     }
 
     public static String getSearchUrl(String keyword, int page) throws UnsupportedEncodingException {
